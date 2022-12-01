@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -30,6 +31,13 @@ h2 {
   margin-top: -10px;
   color:#434242;
 }
+hr{
+  margin: auto;
+  margin-bottom: 50px;
+  border:dotted 6px;
+  border-bottom: none;
+  width: 4%
+}
 
 .nav_b {
   padding-left: 30px;
@@ -50,4 +58,33 @@ h2 {
   font-weight: lighter;
   width: 70%;
   margin: 10px auto 30px auto;
+}
+.myskills{
+/* height: 400px; */
+/* border: solid 1px; */
+ width: 50%;
+ margin-left: 0px;
+ text-align:left;
+}
+.pro-name{
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.tools-name{
+  font-size: 1.5rem;
+  position: relative;
+  left: 40px;
+}
+.head-skills{
+  margin-top: 10px;
+  text-align: center;
+}
+.Programming{
+  float: left;
+  margin-left: 15%;
+  margin-right: 250px;
+}
+.icon{
+  margin-right: 20px;
+  margin-top: 10px;
 }
