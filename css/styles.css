@@ -1,19 +1,9 @@
-:root {
-  --bio_color: #8EC3B0;
-}
-
-* {
-  /* Clear margin and padding */
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 body {
   margin: 0;
   text-align: center;
   font-family: 'Teko', sans-serif;
-  background-color: #DEF5E5;
+  background-color: #F3EFE0;
 }
 
 nav {
@@ -26,18 +16,28 @@ nav {
 }
 
 h1 {
-  font-size: 5.65rem;
+  font-size: 3rem;
   margin: 50px auto 0 auto;
-  color: var(--bio_color)
+  color:#22A39F;
 }
 
 h2 {
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 2.5rem;
   margin-top: -10px;
-  color: var(--bio_color)
+  color:#434242;
 }
 
 .nav_b {
   padding-left: 30px;
+}
+.head_bio{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.pic-profile{
+  border-radius:100px;
+  width: 25%;
+  float:left;
 }
