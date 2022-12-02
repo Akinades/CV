@@ -94,12 +94,13 @@ padding-bottom: 100px;
   display: flex;
 padding-left: 15%;
  float: left;
- margin-right: 150px;
-
+margin-right: 150px;
 }
 .Tools{
+ width: 35%;
 display: flex;
 padding-top: 35px;
+margin-left: 120px;
 }
 .icon{
   margin-right: 20px;
