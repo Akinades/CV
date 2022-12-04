@@ -64,6 +64,7 @@ hr{
 /* border: solid 1px; */
 background-color: #68B984;
 padding-bottom: 100px;
+padding-top: 30px;
 }
 .pro-name{
   color: white;
@@ -104,4 +105,22 @@ margin-left: 100px;
 .icon{
   margin-right: 20px;
   margin-top: 10px;
+}
+.Education{
+  font-size: 1.5rem;
+  font-family: 'Teko', sans-serif;
+  text-align: left;
+  margin-left: 30%;
+}
+.td_edu{
+  padding-right: 100px;
+}
+.head_Edu{
+  text-align: center;
+}
+.head_Edu_text{
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
 }
