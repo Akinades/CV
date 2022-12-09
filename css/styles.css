@@ -85,7 +85,7 @@ td {
 
 /* My Education */
 #Educations {
-    /* padding: 3% 20%; */
+    padding: 3% 20%;
   text-align: center;
   margin-top: 2rem;
 }
@@ -100,7 +100,8 @@ th {
 .Date-edu{
 }
 .Detail-edu {
+  width: 500px
   text-align: left;
-  padding: 3%
-  padding-left: 30px;
+  padding-right: 100px
+
 }
