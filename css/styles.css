@@ -4,17 +4,17 @@ body {
 }
 #profile{
   background-color: #68B984;
-  padding: 20px 0 20px 0;
+  padding: 15px 0 15px 0;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 50px auto 0 auto;
   color: #22A39F;
 }
 
 h2 {
   font-weight: lighter;
-  font-size: 2.5rem;
+  font-size: 5rem;
   margin-top: -10px;
   color: #434242;
 }
@@ -38,6 +38,7 @@ hr {
 }
 
 .pic-profile {
+  width : 300px;
   border-radius: 360px;
   float: left;
   margin-right: 30px;
@@ -45,7 +46,7 @@ hr {
 
 .intro_bio {
   font-family: 'Teko', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: lighter;
 }
 
@@ -55,22 +56,20 @@ hr {
   text-align: center;
   /* background-color: #68B984; */
 }
-
+.sub_skills{
+  font-size: 3rem;
+}
 .container-fluid {
   padding: 3% 15%;
-}
-
-.head-skills {}
-
-.Programming {
-  /* background-color: red; */
 }
 
 .icon {
   margin-left: auto;
   margin-right: auto;
 }
-
+.icon_text{
+  font-size: 2rem;
+}
 table {
   margin-left: auto;
   margin-right: auto;
@@ -97,11 +96,45 @@ td {
 th {
   margin-bottom: 1rem;
 }
-.Date-edu{
-}
+/* .Date-edu{
+} */
 .Detail-edu {
-  width: 500px
-  text-align: left;
-  padding-right: 100px
+  width: 500px ; 
+  text-align : left;
+  padding-right : 100px ; 
 
+}
+
+@media only screen and (max-width: 600px)
+{
+   /*Bio*/
+     .head_bio{
+      margin-right: 200px;
+      width: 100%;
+      
+     }
+     .intro_bio{
+      width: 100%;
+      text-align: center;
+     }
+    .pic-profile{
+      width: 100px;
+    }
+    h1{
+      font-size: 2.5rem;
+
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+    .intro_bio{
+      font-size: 1.5rem;
+    }
+   /*Skills*/
+    .icon{
+       width: 50px;
+    }
+    .icon_text{
+      font-size: 1.5rem;
+    }
 }
