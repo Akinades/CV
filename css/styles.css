@@ -1,140 +1,108 @@
-body {
-  font-family: 'Teko', sans-serif;
-  background-color: #F3EFE0;
+
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Righteous&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#profile{
-  background-color: #68B984;
-  padding: 15px 0 15px 0;
-}
-h1 {
-  font-size: 5rem;
-  margin: 50px auto 0 auto;
-  color: #22A39F;
+body{
+  font-family: "Righteous" ,sans-serif ;
+ 
 }
 
-h2 {
-  font-weight: lighter;
-  font-size: 5rem;
-  margin-top: -10px;
-  color: #434242;
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navbar */
+
+.navbar-brand{
+  margin-left: 50px;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
-hr {
-  color: #434242;
-  border: dotted 6px;
-  border-bottom: none;
-  margin: 1rem auto 1rem auto;
-  width: 4%
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 2em;
+ font-weight: lighter;
+ /* color: red; */
 }
 
-.nav_b {
-  padding-left: 30px;
-}
-
-.head_bio {
+/* My Bio */
+.bio{
+  margin-top: 250px;
   width: 50%;
-  margin: 5% 15% 5% auto;
+  margin-left: 33% ;
   text-align: left;
 }
-
-.pic-profile {
-  width : 300px;
-  border-radius: 360px;
+.bio-pic img{
+  width: 300px;
+  border-radius: 100px;
   float: left;
   margin-right: 30px;
 }
-
-.intro_bio {
-  font-family: 'Teko', sans-serif;
-  font-size: 2.5rem;
+.bio-text{
+  padding-top: 30px;
+}
+.bio-text h1 h2{
+  font-size: 2em;
+  font-weight: bold;
+}
+.bio-text p{
+  font-size: 1.5em;
   font-weight: lighter;
+  font-family: 'Golos Text', sans-serif;
 }
+/*Education & Expreiences*/
 
-/* My skills */
-#Skills {
-  padding: 3% 20%;
-  text-align: center;
-  /* background-color: #68B984; */
+#Detail{
+  margin-top: 200px;
 }
-.sub_skills{
-  font-size: 3rem;
-}
-.container-fluid {
-  padding: 3% 15%;
-}
-
-.icon {
-  margin-left: auto;
-  margin-right: auto;
-}
-.icon_text{
-  font-size: 2rem;
-}
-table {
-  margin-left: auto;
-  margin-right: auto;
+.educations h2 {
   text-align: center;
 }
-
-td {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 15px 0 15px ;
+.educations table {
+  margin-top: 70px;
 }
 
-/* My Education */
-#Educations {
-    padding: 3% 20%;
+table{
+   border-collapse:inherit;
+    border-spacing: 50px; 
+  } 
+
+.experience h2 {
   text-align: center;
-  margin-top: 2rem;
+}
+/*SKILLS*/
+#Skills{
+  margin-top: 100px;
+}
+#Skills h2{
+  text-align: center;
+}
+#Skills .row{
+  margin-top: 20px;
+   text-align: center;
+}
+#Skills img{
+  
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 50px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
-.Educations {
-  font-size: clamp(16px,2.5vw,32px;)
+#projects {
+  margin-top: 100px;
 }
-
-th {
-  margin-bottom: 1rem;
-}
-/* .Date-edu{
-} */
-.Detail-edu {
-  width: 500px ; 
-  text-align : left;
-  padding-right : 100px ; 
-
-}
-
-@media only screen and (max-width: 600px)
-{
-   /*Bio*/
-     .head_bio{
-      margin-right: 200px;
-      width: 100%;
-      
-     }
-     .intro_bio{
-      width: 100%;
-      text-align: center;
-     }
-    .pic-profile{
-      width: 100px;
-    }
-    h1{
-      font-size: 2.5rem;
-
-    }
-    h2{
-      font-size: 1.5rem;
-    }
-    .intro_bio{
-      font-size: 1.5rem;
-    }
-   /*Skills*/
-    .icon{
-       width: 50px;
-    }
-    .icon_text{
-      font-size: 1.5rem;
-    }
+#projects h2{
+  text-align: center;
 }

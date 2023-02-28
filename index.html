@@ -20,144 +20,237 @@
 </head>
 
 <body>
+  <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg fixed-top " >
+      <a class="navbar-brand" href="#">TheCarbon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="#Detail">BIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#Skills">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
     <!-- My Proflie -->
   <section id="profile">
-      <div class="head_bio">
-        <img class="pic-profile" src="images/apisit_pf2.jpeg"  alt="pic-profile">
+    <div class="bio">
+      <div class="bio-pic text-center">
+        <img src="images/apisit_pf2.jpeg" class="rounded-circle" alt="bio-pic">
+      </div>
+      <div class="bio-text">
         <h1>Apisit Supakankamjorn</h1>
         <h2>Web Developer</h2>
-        <p class="intro_bio">I am interested in web programming and data analytics to develop the best user experience.</p>
-      </div>
-  </section>
-  <hr>
-  <!-- My Skills -->
-  <section id="Skills">
-      <h2 class="head-skills">SKILLS</h2>
-      <div class="row ">
-        <div class=" card col-lg-4 ">
-          <div class="card-header">
-              <h3 class="sub_skills">Programming</h3>
-          </div>
-          <div class="Programming card-body">
-            <table>
-              <tr>
-                <td><img class="icon" src="images/html-icon.png" width="100" alt="html-icon">
-                  <p class="icon_text">HTML</p>
-                </td>
-                <td><img class="icon" src="images/Js-icon.png" width="100" alt="JS-icon">
-                  <p class="icon_text">Javascript</p>
-                </td>
-                <td><img class="icon" src="images/Css-icon.png" width="100" alt="Css-icon">
-                  <p class="icon_text">CSS</p>
-                </td>
-              </tr>
-              <tr>
-                <td><img class="icon" src="images/python-icon.png" width="100" alt="Python-icon">
-                  <p class="icon_text">Python</p>
-                </td>
-                <td><img class="icon" src="images/C-icon.png" width="100" alt="C#-icon">
-                  <p class="icon_text">C#</p>
-                </td>
-                <td><img  class="icon" src="images/SQL-icon.png" width="100" alt="SQL-icon">
-                  <p class="icon_text">SQL</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-       
-        </div>
-        <div class="card  col-lg-4">
-          <div class="card-header"> 
-              <h3 class="sub_skills">Framework</h3>
-          </div>
-          <div class="Framework card-body">
-            <table>
-              <tr>
-                <td><img class="icon" src="images/NodeJS-icon.png" width="100" alt="NodeJS-icon">
-                  <p class="icon_text">NodeJS</p>
-                </td>
-                <td><img class="icon" src="images/React-icon.png" width="100" alt="React-icon">
-                  <p class="icon_text">React</p>
-                </td>
-                <td><img class="icon" src="images/Bootstrap-icon.png" width="120" alt="Bootstrap-icon">
-                  <p class="icon_text">Boostrap</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="card col-lg-4">
-           <div class="card-header"> 
-            <h3 class="sub_skills">Tools</h3>
-           </div>
-           <div class=" Tools card-body">
-            <table>
-              <tr>
-                <td><img class="icon" src="images/VS-icon.png" width="100" alt="VS-icon">
-                  <p class="icon_text">VS Code</p>
-                </td>
-                <td><img class="icon" src="images/Unity-icon.png" width="100" alt="Unity-icon">
-                  <p class="icon_text">Unity</p>
-                </td>
-                <td><img class="icon" src="images/Figma-icon.png" width="100" alt="Figma-icon">
-                  <p class="icon_text">Figma</p>
-                </td>
-              </tr>
-              <tr>
-                <td><img class="icon" src="images/Github-icon.png" width="100" alt="Github-icon">
-                  <p class="icon_text">Github</p>
-                </td>
-                <td><img class="icon" src="images/Postman-icon.png" width="100" alt="Postman-icon">
-                  <p class="icon_text">Postman</p>
-                </td>
-              </tr>
-            </table>
-           </div>
-        </div>
-      </div>
-    
-  </section>
-  <hr>
-  <!-- My Education & Course -->
-  <section id="Educations">
-    <div class="row">
-          <h2>Educations</h2>
-      <div class="Educations col-md-6 ">
-        <table>
-          <tr>
-            <td class="Date-edu">2020-2021</td>
-            <td>
-              <ul class="Detail-edu" style="list-style: none;">
-                <li>(Internship) Unity Developer at NDF Dev</li>
-                <li> 01/Aug/2020 - 28/Feb/2021 </li>
-                <ul>
-                  <li>Designed and Developed application for mobile</li>
-                <li>Researched information for new tools to create a project</li>
-                <li>Debugging,Testing and created a prototype   </li>
-                </ul>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td class="Date-edu">2017-2019</td>
-            <td>
-              <ul class="Detail-edu" style="list-style: none;">
-                <li>Bachelor of Science in Animation and Game</li>
-                <li>Chiang mai university,Chaing mai</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
+        <p>I am interested in web programming and data analytics to develop the best user experience.</p>
       </div>
     </div>
+     <!-- Educations & experiences -->
+     <div class="container-fluid">
+    <div id="Detail" class=" row">
+      <div class="educations col-6">
+        <h2>Education</h2>
+        <table cellspacing="10">
+          <tr>
+            <td>
+              <ul style = "list-style: none;">
+                <li><b>Bachelor of Science in Animation and Game</b></li>
+                <li>Chiang mai university,Chaing mai </li>
+              </ul>
+            </td>
+            <td>2017-2021</td>
+          </tr>
+        </table>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/udemy_1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/udemy_2.jpg" class="d-block w-100" alt="...">
+            </div>
+           
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden ">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="experience col-6">
+         <h2>Experiences</h2>
+         <table>
+          <tr>
+            <td><ul style = "list-style: none;">
+              <li><b>The Complete 2023 Web Development Bootcamp</b></li>
+              <li>Udemy: Online course by Dr.Angela Yu </li>
+              <ul>
+                <li>Learn about Html, Css, Javascript, React, NodeJS and MongoDB</li>
+                <li>APIs, CRUD and MERN Stack</li>
+                <li>Build fully-fledged websites and web apps</li>
+              </ul>
+            </ul></td>
+            <td>2023</td>
+          </tr>
+         </table>
+         <table>
+          <tr>
+            <td><ul style = "list-style: none;">
+              <li><b>เรียนพัฒนาเว็บ Full Stack HTML CSS NodeJS Express EJS MySQL</b></li>
+              <li>Udemy: Online course by Todsapon Banklongsi</li>
+              <ul>
+                <li>Front-End Web Application by figma </li>
+                <li>Back-End & Front-End Web Applications by NodeJS Express EJS</li>
+              </ul>
+            </ul></td>
+            <td>2022 </td>
+          </tr>
+         </table>
+         <table>
+          <tr>
+             <td><ul style = "list-style: none;">
+              <li><b>Unity Developer (Internship)</b></li>
+              <li>Chiang Mai, NDF Dev </li>
+              <ul>
+                  <li>Designed and Developed application for mobile</li>
+                  <li>Researched information for new tools to create a project</li>
+                  <li>Debugging and Testing </li>
+                  <li>Created a prototype </li>
+              </ul>
+        </ul></td>
+        <td style="width:20%; text-align: right;">2020-2021</td>
+          </tr>
+         </table>
+      </div>
+    </div>
+  </div>
   </section>
-  <hr>
-
-  <!-- <nav>
-      <a clss = "nav_b" href="project.html" >PROJECT</a>
-      <a class= "nav_b"href="contact.html" >CONTACT</a>
-    </nav> -->
-
+  
+  <section id="Skills">
+    <h2>SKILLS</h2>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="program-lag col-3 ">
+        <h3>Programming Laguages</h3>
+        <div > 
+           <img src="images/html-icon.png" alt="html-icon">
+          <img src="images/Css-icon.png"  alt="css-icon">
+          <img src="images/Js-icon.png" alt="js-icon"><br>
+          <img src="images/C-icon.png" alt="html-icon">
+          <img src="images/python-icon.png"  alt="python-icon">
+         
+        </div>
+      </div>
+      <div class="frameworks col-3">
+        <h3>Frameworks</h3>
+        <div> 
+           <img src="images/Bootstrap-icon.png" alt="Bootstrap-icon">
+          <img src="images/NodeJS-icon.png"  alt="nodejs-icon"><br>
+          <img src="images/jquery.png" alt="jquery-icon">
+          <img src="images/React-icon.png" alt="react-icon">
+        </div>
+      </div>
+      <div class="tools col-3">
+        <h3>Tools</h3>
+        <div>
+          <img src="images/VS-icon.png" alt="vs-icon">
+          <img src="images/Github-icon.png" alt="Github-icon"><br>
+          <img src="images/Postman-icon.png" alt="postman-icon">
+          <img src="images/Unity-icon.png" alt="unity-icon">
+        </div>
+      </div>
+      <div class="database col-3">
+        <h3>Databases</h3>
+        <img src="images/mongodb.png " alt="mongodb-icon">
+        <img src="images/SQL-icon.png" alt="SQL-icon">
+      </div>
+    </div>
+  </div>
+  </section>
+  <section id="projects">
+    <h2>PROJECTS</h2>
+    <div class="container-fluid">
+    <div class="row">
+      <div class=" col-6">
+        <div class="card mb-3" style="max-width: 540px; left: 50px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-3" style="max-width: 540px; left: 50px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-3" style="max-width: 540px; left: 50px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-3" style="max-width: 540px; left: 50px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="..." class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+ 
 </body>
 
 </html>
