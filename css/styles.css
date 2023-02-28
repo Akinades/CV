@@ -22,6 +22,7 @@ p, li{
 /* Navbar */
 
 .navbar-brand{
+  color: #fdfdfd;
   margin-left: 50px;
   font-size: 2.5em;
   font-weight: bold;
@@ -33,6 +34,7 @@ p, li{
   padding: 0 18px;
 }
 .nav-link{
+  font-family: "Righteous" ,sans-serif ;
   font-size: 2em;
  font-weight: lighter;
  
@@ -84,9 +86,7 @@ table{
   text-align: center;
 }
 /*SKILLS*/
-#Skills{
-  padding-top: 100px;
-}
+
 #Skills h2{
   text-align: center;
 }
@@ -110,4 +110,20 @@ table{
 }
 #projects h2{
   text-align: center;
+}
+
+
+/*contact*/
+#contact{
+  background-color: cornflowerblue;
+}
+.contact-text{
+  color: #fdfdfd;
+  padding: 15px;
+  display: flex;
+  text-align: left;
+  margin-left: 30%;
+}
+.contact-text p{
+  padding-left: 50px;
 }
