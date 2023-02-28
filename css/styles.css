@@ -12,6 +12,9 @@ body{
   font-family: "Righteous" ,sans-serif ;
  
 }
+p, li{
+  font-family: 'Golos Text', sans-serif;
+}
 
 .container-fluid{
   padding: 3% 15% 7%;
@@ -23,21 +26,24 @@ body{
   font-size: 2.5em;
   font-weight: bold;
 }
-
+.navbar{
+  background-color: cornflowerblue;
+}
 .nav-item{
   padding: 0 18px;
 }
 .nav-link{
   font-size: 2em;
  font-weight: lighter;
- /* color: red; */
+ 
+ color: #fff;
 }
 
 /* My Bio */
 .bio{
-  margin-top: 250px;
+  padding-top: 250px;
   width: 50%;
-  margin-left: 33% ;
+  margin-left: 20% ;
   text-align: left;
 }
 .bio-pic img{
@@ -54,14 +60,14 @@ body{
   font-weight: bold;
 }
 .bio-text p{
+  width: 125%;
   font-size: 1.5em;
   font-weight: lighter;
-  font-family: 'Golos Text', sans-serif;
 }
 /*Education & Expreiences*/
 
 #Detail{
-  margin-top: 200px;
+  padding-top: 100px;
 }
 .educations h2 {
   text-align: center;
@@ -72,15 +78,14 @@ body{
 
 table{
    border-collapse:inherit;
-    border-spacing: 50px; 
+    border-spacing: 30px; 
   } 
-
 .experience h2 {
   text-align: center;
 }
 /*SKILLS*/
 #Skills{
-  margin-top: 100px;
+  padding-top: 100px;
 }
 #Skills h2{
   text-align: center;
@@ -101,7 +106,7 @@ table{
 }
 
 #projects {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 #projects h2{
   text-align: center;
